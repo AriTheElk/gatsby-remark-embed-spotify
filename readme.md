@@ -53,6 +53,10 @@ And artist pages!
 https://open.spotify.com/artist/0nLTVC5FExtXgF3RoLh0TH?si=SIPTIBZHTaiODE_WNqB-BA
 ```
 
+> __NOTE:__ Make sure to copy the link instead of embed code or Spotify URI.
+
+<p align="center"><img src="https://i.imgur.com/eqx9bHa.png" alt="screenshot for share > copy artist link" /></p>
+
 ## Configuration
 
 ```js
