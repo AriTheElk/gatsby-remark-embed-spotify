@@ -14,7 +14,7 @@ Embed Spotify songs, playlists, sets, and artist pages in your markdown files!
 yarn add gatsby-remark-embed-spotify
 ```
 
-2. Add `gatsby-transformer-remark` to your `gatsby-transformer-remark` plugins in `gatsby-config.js`:
+2. Add `gatsby-remark-embed-spotify` to your `gatsby-transformer-remark` plugins in `gatsby-config.js`:
 
 ```js
 plugins: [
