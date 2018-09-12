@@ -1,0 +1,32 @@
+{
+  "name": "gatsby-remark-embed-spotify",
+  "version": "1.0.0",
+  "description": "Gatsby Remark Plugin for Embedding Soundcloud Songs",
+  "main": "index.js",
+  "author": "Garet McKInley <self@garet.io>",
+  "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "remark",
+    "spotify"
+  ],
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "unist-util-visit": "^1.1.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "cross-env": "^5.0.5"
+  },
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "prepublish": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir ."
+  },
+  "homepage": "https://github.com/garetmckinley/gatsby-remark-embed-spotify",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garetmckinley/gatsby-remark-embed-spotify.git"
+  }
+}
