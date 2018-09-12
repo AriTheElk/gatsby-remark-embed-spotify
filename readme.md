@@ -2,7 +2,7 @@
 
 Embed Spootify songs and playlists and sets in your markdown files!
 
-### [View a live demo here](https://words.garet.io/gatsby-remark-embed-spotify/)
+### [View a live demo here](https://words.garet.io/music-for-programming/)
 
 <a href="https://www.buymeacoffee.com/gm" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
