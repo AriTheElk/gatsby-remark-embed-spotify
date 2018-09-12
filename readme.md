@@ -1,6 +1,6 @@
 # gatsby-remark-embed-spotify
 
-Embed Spotify songs and playlists and set them in your markdown files!
+Embed Spotify songs, playlists, sets, and artist pages in your markdown files!
 
 ### [View a live demo here](https://words.garet.io/music-for-programming/)
 
