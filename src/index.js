@@ -9,10 +9,9 @@ module.exports = ({ markdownAST }, { width = "100%", height = 400 } = {}) => {
         value
       )
     ) {
-      const spotifyURL = value.replace(
-        "https://open.spotify.com",
-        "https://open.spotify.com/embed"
-      );
+      const spotifyURL = value
+        .replace("https://open.spotify.com", "https://open.spotify.com/embed")
+        .split("?")[0];
       node.type = "html";
       node.value = `<iframe src="${spotifyURL}" width="${width}" height="${height}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>`;
     }
