@@ -68,8 +68,8 @@ plugins: [
         {
           resolve: "gatsby-remark-embed-spotify",
           options: {
-            width: 800, // default is "100%"
-            height: 600 // default is 400
+            width: "800px", // default is "300px"
+            height: "600px" // default is "380px
           }
         }
       ]
