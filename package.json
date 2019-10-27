@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-embed-spotify",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "Gatsby Remark Plugin for Embedding Spotify Songs, Albums, Playlists, or Artist Pages.",
   "main": "index.js",
   "author": "Garet McKInley <self@garet.io>",
