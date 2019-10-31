@@ -5,7 +5,7 @@ module.exports = ({ markdownAST }, { width = "100%", height = 400 } = {}) => {
   visit(markdownAST, "text", node => {
     const { value } = node;
     if (
-      /https:\/\/open\.spotify\.com\/(user\/[A-Za-z0-9-_]*\/playlist|track|artist|album)\/[A-Za-z0-9-_?=]*/.test(
+      /https:\/\/open\.spotify\.com\/((user\/[A-Za-z0-9-_]*\/playlist|track|artist|album)|(playlist|track|artist|album))\/[A-Za-z0-9-_?=]*/.test(
         value
       )
     ) {
